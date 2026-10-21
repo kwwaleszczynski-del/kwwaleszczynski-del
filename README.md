@@ -3,7 +3,7 @@
 Analytics for solar, wind and battery assets: performance verification, fault detection, power market analysis and dashboards. Every project below is written from scratch on open data and can be rerun from its repository, with tests and CI.
 
 **Portfolio:** [kwwaleszczynski-del.github.io](https://kwwaleszczynski-del.github.io/)  
-**Live pages:** [Polish power market, live](https://kwwaleszczynski-del.github.io/pl-power-market-live/) · [How solar eats its own price in Poland](https://kwwaleszczynski-del.github.io/pl-capture-price/) · [Single-axis trackers in 3D](https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/) · [Wakes and shadow flicker](https://kwwaleszczynski-del.github.io/wind-wake-shadow/)  
+**Live pages:** [Polish power market, live](https://kwwaleszczynski-del.github.io/pl-power-market-live/) · [How solar eats its own price in Poland](https://kwwaleszczynski-del.github.io/pl-capture-price/) · [Cable pooling: PV, wind and storage behind one connection](https://kwwaleszczynski-del.github.io/cable-pooling-sizer/) · [Single-axis trackers in 3D](https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/) · [Wakes and shadow flicker](https://kwwaleszczynski-del.github.io/wind-wake-shadow/)  
 **Own verification methods:** [Battery state of charge and ageing](https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation) · [PV shading from AC power alone](https://github.com/kwwaleszczynski-del/pv-shade-fingerprint) · [WARP: wake-aware turbine verification](https://github.com/kwwaleszczynski-del/wind-wake-aware-verification)
 
 #### Solar PV
@@ -41,11 +41,11 @@ Analytics for solar, wind and battery assets: performance verification, fault de
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-arbitrage-pl"><img src="https://kwwaleszczynski-del.github.io/img/bess-arbitrage-pl.webp" alt="Battery arbitrage on Polish prices"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-arbitrage-pl">Battery arbitrage on Polish prices</a></b><br><sub>859-day backtest: a 2-hour battery earned 308 k PLN per MW in 2025, and negative prices reached 354 hours that year.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/nem-battery-behaviour"><img src="https://kwwaleszczynski-del.github.io/img/nem-battery-behaviour.webp" alt="How real batteries trade"></a><br><b><a href="https://github.com/kwwaleszczynski-del/nem-battery-behaviour">How real batteries trade</a></b><br><sub>The six largest batteries earn 11-51 % of their perfect-foresight optimum; the gap is split into capacity offered, volume and timing.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/cable-pooling-sizer"><img src="https://kwwaleszczynski-del.github.io/img/cable-pooling-sizer.webp" alt="Cable pooling: PV, wind and storage behind one connection"></a><br><b><a href="https://github.com/kwwaleszczynski-del/cable-pooling-sizer">Cable pooling: PV, wind and storage behind one connection</a></b> · <a href="https://kwwaleszczynski-del.github.io/cable-pooling-sizer/">live page</a><br><sub>Best oversizing is 1.75-2.25x the connection without a battery and 2.75-3x with one, curtailing 9-20 % of the energy.</sub></td>
 </tr>
 <tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/nem-battery-behaviour"><img src="https://kwwaleszczynski-del.github.io/img/nem-battery-behaviour.webp" alt="How real batteries trade"></a><br><b><a href="https://github.com/kwwaleszczynski-del/nem-battery-behaviour">How real batteries trade</a></b><br><sub>The six largest batteries earn 11-51 % of their perfect-foresight optimum; the gap is split into capacity offered, volume and timing.</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation"><img src="https://kwwaleszczynski-del.github.io/img/bess-soc-soh-degradation.webp" alt="Battery state of charge and ageing"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation">Battery state of charge and ageing</a></b><br><sub>SoC from 5-minute market data tracks the operator's SoC within 2.7-3.8 percentage points (RMSE).</sub></td>
-<td width="50%"></td>
 </tr>
 </table>
 
@@ -59,4 +59,4 @@ Analytics for solar, wind and battery assets: performance verification, fault de
 </table>
 
 **Stack:** Python · pandas · SciPy / HiGHS MILP · pvlib · PyWake · PyTorch · Plotly · Grafana · InfluxDB 2 / Flux · GitHub Actions · pytest  
-**Open data:** PSE (Polish TSO) open API · AEMO NEM · NREL PVDAQ · Kelmarsh wind farm SCADA (Cubico, CC BY 4.0) · PVGIS · Met Office sunshine records · Zenodo LFP cell ageing data
+**Open data:** PSE (Polish TSO) open API · AEMO NEM · NREL PVDAQ · Kelmarsh wind farm SCADA (Cubico, CC BY 4.0) · PVGIS · Open-Meteo / ERA5 · Met Office sunshine records · Zenodo LFP cell ageing data
