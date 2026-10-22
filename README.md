@@ -3,7 +3,7 @@
 Analytics for solar, wind and battery assets: performance verification, fault detection, power market analysis and dashboards. Every project below is written from scratch on open data and can be rerun from its repository, with tests and CI.
 
 **Portfolio:** [kwwaleszczynski-del.github.io](https://kwwaleszczynski-del.github.io/)  
-**Live pages:** [Polish power market, live](https://kwwaleszczynski-del.github.io/pl-power-market-live/) · [How solar eats its own price in Poland](https://kwwaleszczynski-del.github.io/pl-capture-price/) · [Cable pooling: PV, wind and storage behind one connection](https://kwwaleszczynski-del.github.io/cable-pooling-sizer/) · [Single-axis trackers in 3D](https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/) · [Wakes and shadow flicker](https://kwwaleszczynski-del.github.io/wind-wake-shadow/)  
+**Live pages:** [Polish power market, live](https://kwwaleszczynski-del.github.io/pl-power-market-live/) · [How solar eats its own price in Poland](https://kwwaleszczynski-del.github.io/pl-capture-price/) · [Cable pooling: PV, wind and storage behind one connection](https://kwwaleszczynski-del.github.io/cable-pooling-sizer/) · [Single-axis trackers in 3D](https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/) · [Wakes and shadow flicker](https://kwwaleszczynski-del.github.io/wind-wake-shadow/) · [Capacity credit of wind and PV in Poland](https://kwwaleszczynski-del.github.io/pl-res-reliability-markov/) · [Ramps and flexibility needs of the Polish grid](https://kwwaleszczynski-del.github.io/pl-flexibility-ramps/) · [How good is ERA5 in Poland?](https://kwwaleszczynski-del.github.io/era5-check-pl/)  
 **Own verification methods:** [Battery state of charge and ageing](https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation) · [PV shading from AC power alone](https://github.com/kwwaleszczynski-del/pv-shade-fingerprint) · [WARP: wake-aware turbine verification](https://github.com/kwwaleszczynski-del/wind-wake-aware-verification)
 
 #### Solar PV
@@ -49,6 +49,19 @@ Analytics for solar, wind and battery assets: performance verification, fault de
 </tr>
 </table>
 
+#### Power system & resource
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-res-reliability-markov"><img src="https://kwwaleszczynski-del.github.io/img/pl-res-reliability-markov.webp" alt="Capacity credit of wind and PV in Poland"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-res-reliability-markov">Capacity credit of wind and PV in Poland</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-res-reliability-markov/">live page</a><br><sub>Reproduces the IEEE RTS-79 reference LOLE exactly; wind ELCC about 26.5 % and PV about 10 %, compared with capacity market derating factors.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-flexibility-ramps"><img src="https://kwwaleszczynski-del.github.io/img/pl-flexibility-ramps.webp" alt="Ramps and flexibility needs of the Polish grid"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-flexibility-ramps">Ramps and flexibility needs of the Polish grid</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-flexibility-ramps/">live page</a><br><sub>The evening ramp grew from 1.5 to 4.3 GW between 2021 and 2025; the P99 hourly ramp is 3.2 GW, against 4.6 GW PSE expects for 2030.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/era5-check-pl"><img src="https://kwwaleszczynski-del.github.io/img/era5-check-pl.webp" alt="How good is ERA5 in Poland?"></a><br><b><a href="https://github.com/kwwaleszczynski-del/era5-check-pl">How good is ERA5 in Poland?</a></b> · <a href="https://kwwaleszczynski-del.github.io/era5-check-pl/">live page</a><br><sub>ERA5 overstates 10 m wind by 8 % (median), about 15 % in wind energy; the matrix MCP method cuts the energy error from 41 % to 5 %.</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
 #### Monitoring
 
 <table>
@@ -59,4 +72,4 @@ Analytics for solar, wind and battery assets: performance verification, fault de
 </table>
 
 **Stack:** Python · pandas · SciPy / HiGHS MILP · pvlib · PyWake · PyTorch · Plotly · Grafana · InfluxDB 2 / Flux · GitHub Actions · pytest  
-**Open data:** PSE (Polish TSO) open API · AEMO NEM · NREL PVDAQ · Kelmarsh wind farm SCADA (Cubico, CC BY 4.0) · PVGIS · Open-Meteo / ERA5 · Met Office sunshine records · Zenodo LFP cell ageing data
+**Open data:** PSE (Polish TSO) open API · AEMO NEM · NREL PVDAQ · Kelmarsh wind farm SCADA (Cubico, CC BY 4.0) · PVGIS · Open-Meteo / ERA5 · Met Office sunshine records · Zenodo LFP cell ageing data · IMGW-PIB synoptic stations · CERRA (Copernicus) · IEEE RTS-79
