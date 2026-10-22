@@ -4,7 +4,7 @@
 
 Analytics for solar, wind and battery assets: performance verification, fault detection, power market analysis and dashboards. Every project below is written from scratch on open data and can be rerun from its repository, with tests and CI.
 
-**Live pages:** [Polish power market, live](https://kwwaleszczynski-del.github.io/pl-power-market-live/) · [How solar eats its own price in Poland](https://kwwaleszczynski-del.github.io/pl-capture-price/) · [When batteries flatten their own spreads](https://kwwaleszczynski-del.github.io/pl-bess-saturation/) · [Cable pooling: PV, wind and storage behind one connection](https://kwwaleszczynski-del.github.io/cable-pooling-sizer/) · [Single-axis trackers in 3D](https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/) · [Wakes and shadow flicker](https://kwwaleszczynski-del.github.io/wind-wake-shadow/) · [Capacity credit of wind and PV in Poland](https://kwwaleszczynski-del.github.io/pl-res-reliability-markov/) · [Ramps and flexibility needs of the Polish grid](https://kwwaleszczynski-del.github.io/pl-flexibility-ramps/) · [How good is ERA5 in Poland?](https://kwwaleszczynski-del.github.io/era5-check-pl/)  
+**Live pages:** [Polish power market, live](https://kwwaleszczynski-del.github.io/pl-power-market-live/) · [How solar eats its own price in Poland](https://kwwaleszczynski-del.github.io/pl-capture-price/) · [When batteries flatten their own spreads](https://kwwaleszczynski-del.github.io/pl-bess-saturation/) · [Cable pooling: PV, wind and storage behind one connection](https://kwwaleszczynski-del.github.io/cable-pooling-sizer/) · [Battery ageing vs capacity market obligation](https://kwwaleszczynski-del.github.io/bess-capacity-augmentation/) · [Single-axis trackers in 3D](https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/) · [PV thermal check: modules, inverter, transformer](https://kwwaleszczynski-del.github.io/pv-thermal-check/) · [Wakes and shadow flicker](https://kwwaleszczynski-del.github.io/wind-wake-shadow/) · [Capacity credit of wind and PV in Poland](https://kwwaleszczynski-del.github.io/pl-res-reliability-markov/) · [Ramps and flexibility needs of the Polish grid](https://kwwaleszczynski-del.github.io/pl-flexibility-ramps/) · [How good is ERA5 in Poland?](https://kwwaleszczynski-del.github.io/era5-check-pl/)  
 **Own verification methods:** [Battery state of charge and ageing](https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation) · [PV shading from AC power alone](https://github.com/kwwaleszczynski-del/pv-shade-fingerprint) · [WARP: wake-aware turbine verification](https://github.com/kwwaleszczynski-del/wind-wake-aware-verification)
 
 #### Solar PV
@@ -16,7 +16,7 @@ Analytics for solar, wind and battery assets: performance verification, fault de
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-anomaly-autoencoder"><img src="https://kwwaleszczynski-del.github.io/img/pv-anomaly-autoencoder.webp" alt="PV fault detection: autoencoder vs baselines"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-anomaly-autoencoder">PV fault detection: autoencoder vs baselines</a></b><br><sub>F1 0.77 against 0.37-0.48 for the baselines; on real data it caught an inverter outage reported 10 days late by the inverter itself.</sub></td>
-<td width="50%"></td>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-thermal-check"><img src="https://kwwaleszczynski-del.github.io/img/pv-thermal-check.webp" alt="PV thermal check: modules, inverter, transformer"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-thermal-check">PV thermal check: modules, inverter, transformer</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-thermal-check/">live page</a><br><sub>The back-of-module sensor saw only about half of the real heating: thermal losses are 10.5 % a year, not 6.7 %; temperature-corrected PR cuts the seasonal spread from 13.1 to 4.8 pp.</sub></td>
 </tr>
 </table>
 
@@ -50,7 +50,7 @@ Analytics for solar, wind and battery assets: performance verification, fault de
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation"><img src="https://kwwaleszczynski-del.github.io/img/bess-soc-soh-degradation.webp" alt="Battery state of charge and ageing"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation">Battery state of charge and ageing</a></b><br><sub>SoC from 5-minute market data tracks the operator's SoC within 2.7-3.8 percentage points (RMSE).</sub></td>
-<td width="50%"></td>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-capacity-augmentation"><img src="https://kwwaleszczynski-del.github.io/img/bess-capacity-augmentation.webp" alt="Battery ageing vs capacity market obligation"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-capacity-augmentation">Battery ageing vs capacity market obligation</a></b> · <a href="https://kwwaleszczynski-del.github.io/bess-capacity-augmentation/">live page</a><br><sub>Built to nominal energy, a battery misses its obligation in year one; +20 % headroom lasts 7-10 years, and full arbitrage leaves 62-68 % SoH after 17 years.</sub></td>
 </tr>
 </table>
 
