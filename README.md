@@ -1,8 +1,9 @@
 ### Renewable energy data analytics
 
+[**Interactive Portfolio**](https://kwwaleszczynski-del.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/kw00) · [*****REMOVED*****](mailto:***REMOVED***)
+
 Analytics for solar, wind and battery assets: performance verification, fault detection, power market analysis and dashboards. Every project below is written from scratch on open data and can be rerun from its repository, with tests and CI.
 
-**Portfolio:** [kwwaleszczynski-del.github.io](https://kwwaleszczynski-del.github.io/)  
 **Live pages:** [Polish power market, live](https://kwwaleszczynski-del.github.io/pl-power-market-live/) · [How solar eats its own price in Poland](https://kwwaleszczynski-del.github.io/pl-capture-price/) · [When batteries flatten their own spreads](https://kwwaleszczynski-del.github.io/pl-bess-saturation/) · [Cable pooling: PV, wind and storage behind one connection](https://kwwaleszczynski-del.github.io/cable-pooling-sizer/) · [Single-axis trackers in 3D](https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/) · [Wakes and shadow flicker](https://kwwaleszczynski-del.github.io/wind-wake-shadow/) · [Capacity credit of wind and PV in Poland](https://kwwaleszczynski-del.github.io/pl-res-reliability-markov/) · [Ramps and flexibility needs of the Polish grid](https://kwwaleszczynski-del.github.io/pl-flexibility-ramps/) · [How good is ERA5 in Poland?](https://kwwaleszczynski-del.github.io/era5-check-pl/)  
 **Own verification methods:** [Battery state of charge and ageing](https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation) · [PV shading from AC power alone](https://github.com/kwwaleszczynski-del/pv-shade-fingerprint) · [WARP: wake-aware turbine verification](https://github.com/kwwaleszczynski-del/wind-wake-aware-verification)
 
