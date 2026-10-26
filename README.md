@@ -37,7 +37,7 @@ Analytics for solar, wind and battery assets: performance verification, fault de
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-power-market-live"><img src="https://kwwaleszczynski-del.github.io/img/pl-power-market-live.webp" alt="Polish power market, live"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-power-market-live">Polish power market, live</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-power-market-live/">live page</a><br><sub>No server and no database: GitHub Actions rebuilds a static page from cached monthly Parquet files.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-power-market-live"><img src="https://kwwaleszczynski-del.github.io/pl-power-market-live/thumb.webp" alt="Polish power market, live"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-power-market-live">Polish power market, live</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-power-market-live/">live page</a><br><sub>No server and no database: GitHub Actions rebuilds a static page from cached monthly Parquet files.</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-capture-price"><img src="https://kwwaleszczynski-del.github.io/img/pl-capture-price.webp" alt="How solar eats its own price in Poland"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-capture-price">How solar eats its own price in Poland</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-capture-price/">live page</a><br><sub>In 2025 PV captured 64 % of the average price and wind 94 %; every 10 pp of PV share costs PV about 0.20 of value factor.</sub></td>
 </tr>
 <tr>
