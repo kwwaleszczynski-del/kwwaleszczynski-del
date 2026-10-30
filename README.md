@@ -1,6 +1,6 @@
 ### Renewable energy data analytics
 
-[**Interactive Portfolio**](https://kwwaleszczynski-del.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/kw00) · [*****REMOVED*****](mailto:***REMOVED***)
+[**Interactive Portfolio**](https://kwwaleszczynski-del.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/kw00)
 
 Analytics for solar, wind and battery assets: performance verification, fault detection, power market analysis and dashboards. Every project below is written from scratch on open data or on a disclosed synthetic plant and can be rerun from its repository, with tests and CI.
 
