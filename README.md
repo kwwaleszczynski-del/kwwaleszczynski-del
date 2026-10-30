@@ -2,7 +2,7 @@
 
 [**Interactive Portfolio**](https://kwwaleszczynski-del.github.io/) · [**LinkedIn**](https://www.linkedin.com/in/kw00) · [*****REMOVED*****](mailto:***REMOVED***)
 
-Analytics for solar, wind and battery assets: performance verification, fault detection, power market analysis and dashboards. Every project below is written from scratch on open data and can be rerun from its repository, with tests and CI.
+Analytics for solar, wind and battery assets: performance verification, fault detection, power market analysis and dashboards. Every project below is written from scratch on open data or on a disclosed synthetic plant and can be rerun from its repository, with tests and CI.
 
 #### Start here
 
@@ -21,10 +21,12 @@ Six projects to look at first. The first three come with a short case study writ
 - **[A citable forecast benchmark for the Polish grid](https://github.com/kwwaleszczynski-del/pl-forecast-bench)** · [live page](https://kwwaleszczynski-del.github.io/pl-forecast-bench/)  
   Before paying for a forecast, compare it with the free PSE plan under the same as-of rule: intraday models beat the plan by 20-26 %, but day-ahead nothing that respects the 10:00 issue time beats it for volumes.
 
-**Live pages:** [Polish power market, live](https://kwwaleszczynski-del.github.io/pl-power-market-live/) · [How solar eats its own price in Poland](https://kwwaleszczynski-del.github.io/pl-capture-price/) · [Battery revenue stacking in Poland](https://kwwaleszczynski-del.github.io/pl-bess-revenue-stack/) · [Battery paper trading, live track record](https://kwwaleszczynski-del.github.io/pl-bess-paper-trading/) · [When batteries flatten their own spreads](https://kwwaleszczynski-del.github.io/pl-bess-saturation/) · [Cable pooling: PV, wind and storage behind one connection](https://kwwaleszczynski-del.github.io/cable-pooling-sizer/) · [Grid battery operations against warranty and LTSA](https://kwwaleszczynski-del.github.io/bess-ops-warranty/) · [Battery ageing vs capacity market obligation](https://kwwaleszczynski-del.github.io/bess-capacity-augmentation/) · [Home and C&I energy management on 15-minute Polish prices](https://kwwaleszczynski-del.github.io/pl-hems-mpc/) · [Container thermal balance, HVAC auxiliary load and net RTE of a grid battery](https://kwwaleszczynski-del.github.io/bess-thermal-aux-load/) · [Corporate PPA structuring and shaping risk on Polish power prices](https://kwwaleszczynski-del.github.io/pl-cppa-shaping-risk/) · [PV budget bridge: monthly P50 to actual waterfall and sensor QC](https://kwwaleszczynski-del.github.io/pv-budget-bridge/) · [From a parcel to a PVsyst 3D scene, and what the MV network costs](https://kwwaleszczynski-del.github.io/pv-site-to-pvsyst/) · [Single-axis trackers in 3D](https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/) · [PV outages: detection, cause and availability](https://kwwaleszczynski-del.github.io/pv-outage-classifier/) · [PV thermal check: modules, inverter, transformer](https://kwwaleszczynski-del.github.io/pv-thermal-check/) · [PV string fault diagnosis from inverter MPPT voltage and current](https://kwwaleszczynski-del.github.io/pv-string-iv-faults/) · [1 m LiDAR canopy horizon shading, 3D tracker slopes and IEC 61724-1 PAC acceptance verification](https://kwwaleszczynski-del.github.io/pv-canopy-pac-verification/) · [Kelmarsh wind farm in a laptop-GPU LES](https://kwwaleszczynski-del.github.io/wind-les-gpu/) · [A Bayesian digital twin of a wind farm](https://kwwaleszczynski-del.github.io/wind-bayes-twin/) · [Wind turbine downtime, causes and availability](https://kwwaleszczynski-del.github.io/wind-downtime-availability/) · [Wind turbine O&M reliability from status and alarm logs](https://kwwaleszczynski-del.github.io/wind-om-reliability/) · [Drivetrain temperatures: early fault detection](https://kwwaleszczynski-del.github.io/wind-thermal-nbm/) · [A fly-brain novelty detector for turbine faults](https://kwwaleszczynski-del.github.io/fly-novelty-scada/) · [Wakes and shadow flicker](https://kwwaleszczynski-del.github.io/wind-wake-shadow/) · [Untapped biogas potential in Poland](https://kwwaleszczynski-del.github.io/pl-biogas-siting/) · [What is a flexible biogas plant worth?](https://kwwaleszczynski-del.github.io/pl-biogas-flex/) · [Which method catches a sick digester first?](https://kwwaleszczynski-del.github.io/biogas-digester-twin/) · [Did the upgrade work? Causal O&M verification](https://kwwaleszczynski-del.github.io/res-uplift-verification/) · [Streaming SCADA ingestion, event-time watermarks and Bronze-Silver-Gold lakehouse for wind and PV fleets](https://kwwaleszczynski-del.github.io/scada-lakehouse-streaming/) · [Wind and solar outlook for Poland, live](https://kwwaleszczynski-del.github.io/pl-res-forecast-climate/) · [A citable forecast benchmark for the Polish grid](https://kwwaleszczynski-del.github.io/pl-forecast-bench/) · [Build Poland's power mix with sliders](https://kwwaleszczynski-del.github.io/poland-mix-sandbox/) · [Capacity credit of wind and PV in Poland](https://kwwaleszczynski-del.github.io/pl-res-reliability-markov/) · [Ramps and flexibility needs of the Polish grid](https://kwwaleszczynski-del.github.io/pl-flexibility-ramps/) · [PV and wind curtailed by the Polish TSO](https://kwwaleszczynski-del.github.io/pl-res-curtailment/) · [How good is ERA5 in Poland?](https://kwwaleszczynski-del.github.io/era5-check-pl/) · [Can a fly brain forecast wind and solar?](https://kwwaleszczynski-del.github.io/fly-connectome-forecast/) · [Grid connection studies and non-firm capacity on Polish MV/110 kV feeders](https://kwwaleszczynski-del.github.io/pl-grid-connection-ncrfg/) · [res-asset-kpi: KPI library for PV, wind and BESS](https://kwwaleszczynski-del.github.io/res-asset-kpi/) · [pse-opendata: Python client for PSE data](https://kwwaleszczynski-del.github.io/pse-opendata/)  
-**Own verification methods:** [Battery state of charge and ageing](https://github.com/kwwaleszczynski-del/bess-soc-soh-degradation) · [Grid battery operations against warranty and LTSA](https://github.com/kwwaleszczynski-del/bess-ops-warranty) · [PV budget bridge: monthly P50 to actual waterfall and sensor QC](https://github.com/kwwaleszczynski-del/pv-budget-bridge) · [PV shading from AC power alone](https://github.com/kwwaleszczynski-del/pv-shade-fingerprint) · [PV string fault diagnosis from inverter MPPT voltage and current](https://github.com/kwwaleszczynski-del/pv-string-iv-faults) · [1 m LiDAR canopy horizon shading, 3D tracker slopes and IEC 61724-1 PAC acceptance verification](https://github.com/kwwaleszczynski-del/pv-canopy-pac-verification) · [Kelmarsh wind farm in a laptop-GPU LES](https://github.com/kwwaleszczynski-del/wind-les-gpu) · [A Bayesian digital twin of a wind farm](https://github.com/kwwaleszczynski-del/wind-bayes-twin) · [Wind turbine O&M reliability from status and alarm logs](https://github.com/kwwaleszczynski-del/wind-om-reliability) · [WARP: wake-aware turbine verification](https://github.com/kwwaleszczynski-del/wind-wake-aware-verification) · [Streaming SCADA ingestion, event-time watermarks and Bronze-Silver-Gold lakehouse for wind and PV fleets](https://github.com/kwwaleszczynski-del/scada-lakehouse-streaming)
+#### All 42 projects
 
-#### Solar PV
+Grouped by topic; click a group to open it. Every card links to the repository and, where there is one, to its live page. The same list with filters is on the [interactive portfolio](https://kwwaleszczynski-del.github.io/).
+
+<details>
+<summary><b>Solar PV</b> · 7 projects</summary>
 
 <table>
 <tr>
@@ -41,15 +43,13 @@ Six projects to look at first. The first three come with a short case study writ
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-thermal-check"><img src="https://kwwaleszczynski-del.github.io/img/pv-thermal-check.webp" alt="PV thermal check: modules, inverter, transformer"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-thermal-check">PV thermal check: modules, inverter, transformer</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-thermal-check/">live page</a><br><sub>The back-of-module sensor saw only about half of the real heating: thermal losses are 10.5 % a year, not 6.7 %; temperature-corrected PR cuts the seasonal spread from 13.1 to 4.8 pp.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-string-iv-faults"><img src="https://kwwaleszczynski-del.github.io/img/pv-string-iv-faults.webp" alt="PV string fault diagnosis from inverter MPPT voltage and current"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-string-iv-faults">PV string fault diagnosis from inverter MPPT voltage and current</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-string-iv-faults/">live page</a><br><sub>Shorted bypass diodes produce a current-independent 14.3 V step per sub-string while connector resistance slopes linearly with current (dV = dR_s * I), recovering injected dR_s within 2 % and classifying six fault modes at 0.968 macro-F1.</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-canopy-pac-verification"><img src="https://kwwaleszczynski-del.github.io/img/pv-canopy-pac-verification.webp" alt="1 m LiDAR canopy horizon shading, 3D tracker slopes and IEC 61724-1 PAC acceptance verification"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-canopy-pac-verification">1 m LiDAR canopy horizon shading, 3D tracker slopes and IEC 61724-1 PAC acceptance verification</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-canopy-pac-verification/">live page</a><br><sub>A 12-18 m off-site forest stand 22-38 m east of Station 5 explains 93 % of morning MPPT string dropouts (R² = 0.93, F1 = 0.96) and depresses raw station PR to 74.8 %; excluding off-site canopy shading while retaining an EPC cross-slope defect on Station 3 lifts plant PAC PR from 81.4 % to 83.6 % (vs 82.5 % guarantee).</sub></td>
 <td width="50%"></td>
 </tr>
 </table>
+</details>
 
-#### Wind
+<details>
+<summary><b>Wind</b> · 9 projects</summary>
 
 <table>
 <tr>
@@ -73,8 +73,10 @@ Six projects to look at first. The first three come with a short case study writ
 <td width="50%"></td>
 </tr>
 </table>
+</details>
 
-#### Biogas
+<details>
+<summary><b>Biogas</b> · 3 projects</summary>
 
 <table>
 <tr>
@@ -86,8 +88,10 @@ Six projects to look at first. The first three come with a short case study writ
 <td width="50%"></td>
 </tr>
 </table>
+</details>
 
-#### Storage & markets
+<details>
+<summary><b>Storage &amp; markets</b> · 11 projects</summary>
 
 <table>
 <tr>
@@ -112,15 +116,13 @@ Six projects to look at first. The first three come with a short case study writ
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-capacity-augmentation"><img src="https://kwwaleszczynski-del.github.io/img/bess-capacity-augmentation.webp" alt="Battery ageing vs capacity market obligation"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-capacity-augmentation">Battery ageing vs capacity market obligation</a></b> · <a href="https://kwwaleszczynski-del.github.io/bess-capacity-augmentation/">live page</a><br><sub>Built to nominal energy, a battery misses its obligation in year one; +20 % headroom lasts 7-10 years, and full arbitrage leaves 62-68 % SoH after 17 years.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-hems-mpc"><img src="https://kwwaleszczynski-del.github.io/img/pl-hems-mpc.webp" alt="Home and C&amp;I energy management on 15-minute Polish prices"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-hems-mpc">Home and C&amp;I energy management on 15-minute Polish prices</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-hems-mpc/">live page</a><br><sub>Over Oct 2025 - Sep 2026 (357.5 h of RCE &lt;= 0), the forecast MILP cuts a dynamic-tariff house's annual cost by 36 % (2,277 PLN/yr) and puts 87 % of C&amp;I working days in the K1 capacity-fee band (-71 % capacity fee).</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-thermal-aux-load"><img src="https://kwwaleszczynski-del.github.io/img/bess-thermal-aux-load.webp" alt="Container thermal balance, HVAC auxiliary load and net RTE of a grid battery"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-thermal-aux-load">Container thermal balance, HVAC auxiliary load and net RTE of a grid battery</a></b> · <a href="https://kwwaleszczynski-del.github.io/bess-thermal-aux-load/">live page</a><br><sub>At 1 cycle/day DC cell RTE is 94.2 % and PCS AC RTE is 89.6 %, but 15 kV metered RTE averages 84.2 % (79.4 % in January, 82.8 % in July) and falls to 73.9 % under 0.35 cycle/day reserve duty due to 89 MWh/yr of standing transformer, BMS and heating load.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-cppa-shaping-risk"><img src="https://kwwaleszczynski-del.github.io/img/pl-cppa-shaping-risk.webp" alt="Corporate PPA structuring and shaping risk on Polish power prices"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-cppa-shaping-risk">Corporate PPA structuring and shaping risk on Polish power prices</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-cppa-shaping-risk/">live page</a><br><sub>A 65 % wind + 35 % PV hybrid cuts baseload shaping cost from 142 PLN/MWh (pure PV) to 31 PLN/MWh, and adding a 2 h battery brings it to 11 PLN/MWh while lifting 24/7 hourly carbon-free matching from 44 % to 81 %.</sub></td>
+<td width="50%"></td>
 </tr>
 </table>
+</details>
 
-#### Power system & resource
+<details>
+<summary><b>Power system &amp; resource</b> · 8 projects</summary>
 
 <table>
 <tr>
@@ -139,26 +141,22 @@ Six projects to look at first. The first three come with a short case study writ
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/era5-check-pl"><img src="https://kwwaleszczynski-del.github.io/img/era5-check-pl.webp" alt="How good is ERA5 in Poland?"></a><br><b><a href="https://github.com/kwwaleszczynski-del/era5-check-pl">How good is ERA5 in Poland?</a></b> · <a href="https://kwwaleszczynski-del.github.io/era5-check-pl/">live page</a><br><sub>ERA5 overstates 10 m wind by 8 % (median), about 15 % in wind energy; the matrix MCP method cuts the energy error from 41 % to 5 %.</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/fly-connectome-forecast"><img src="https://kwwaleszczynski-del.github.io/img/fly-connectome-forecast.webp" alt="Can a fly brain forecast wind and solar?"></a><br><b><a href="https://github.com/kwwaleszczynski-del/fly-connectome-forecast">Can a fly brain forecast wind and solar?</a></b> · <a href="https://kwwaleszczynski-del.github.io/fly-connectome-forecast/">live page</a><br><sub>No: tuned separately, the fly brain matches a random reservoir within 2 %; its compressed eigenvalue spectrum makes it robust to bad settings, not a better forecaster.</sub></td>
 </tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-grid-connection-ncrfg"><img src="https://kwwaleszczynski-del.github.io/img/pl-grid-connection-ncrfg.webp" alt="Grid connection studies and non-firm capacity on Polish MV/110 kV feeders"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-grid-connection-ncrfg">Grid connection studies and non-firm capacity on Polish MV/110 kV feeders</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-grid-connection-ncrfg/">live page</a><br><sub>On a 14.2 km overhead 15 kV feeder, NC RfG Q(U) droop lifts hosting capacity from 6.17 MW to 11.53 MW (+87 %) with 84 % lower reactive line losses than fixed cos-phi = 0.95; a 70 % export cap plus 2 h BESS unlocks 35.6 MW across the GPZ under N-1.</sub></td>
-<td width="50%"></td>
-</tr>
 </table>
+</details>
 
-#### Monitoring
+<details>
+<summary><b>Monitoring</b> · 2 projects</summary>
 
 <table>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/res-uplift-verification"><img src="https://kwwaleszczynski-del.github.io/img/res-uplift-verification.webp" alt="Did the upgrade work? Causal O&amp;M verification"></a><br><b><a href="https://github.com/kwwaleszczynski-del/res-uplift-verification">Did the upgrade work? Causal O&amp;M verification</a></b> · <a href="https://kwwaleszczynski-del.github.io/res-uplift-verification/">live page</a><br><sub>A +3 % uplift needs about 9 weeks to prove with five control turbines, +1 % stays unproven after a year; on real events before/after reports -3.2 % to +3.0 % where the turbines came back within ±1 %.</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/grafana-fleet-as-code"><img src="https://kwwaleszczynski-del.github.io/img/grafana-fleet-as-code.webp" alt="Fleet monitoring as code"></a><br><b><a href="https://github.com/kwwaleszczynski-del/grafana-fleet-as-code">Fleet monitoring as code</a></b><br><sub>Alerts fire on real faults, including a PV inverter that stopped producing ten days before it reported an error code.</sub></td>
 </tr>
-<tr>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/scada-lakehouse-streaming"><img src="https://kwwaleszczynski-del.github.io/img/scada-lakehouse-streaming.webp" alt="Streaming SCADA ingestion, event-time watermarks and Bronze-Silver-Gold lakehouse for wind and PV fleets"></a><br><b><a href="https://github.com/kwwaleszczynski-del/scada-lakehouse-streaming">Streaming SCADA ingestion, event-time watermarks and Bronze-Silver-Gold lakehouse for wind and PV fleets</a></b> · <a href="https://kwwaleszczynski-del.github.io/scada-lakehouse-streaming/">live page</a><br><sub>Naive ingestion-time windowing inflates 15-minute peak power 3.8x on LTE reconnect bursts (14.2 % hourly MAE) and loses 4 quarter-hours (-6.0 % daily energy) on the autumn CEST-&gt;CET fallback; a 6 h event-time watermark with monotonic counter continuity recovers 100 % of intervals at 0.986 QC macro-F1.</sub></td>
-<td width="50%"></td>
-</tr>
 </table>
+</details>
 
-#### Open-source tools
+<details>
+<summary><b>Open-source tools</b> · 2 projects</summary>
 
 <table>
 <tr>
@@ -166,6 +164,8 @@ Six projects to look at first. The first three come with a short case study writ
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pse-opendata"><img src="https://kwwaleszczynski-del.github.io/img/pse-opendata.webp" alt="pse-opendata: Python client for PSE data"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pse-opendata">pse-opendata: Python client for PSE data</a></b> · <a href="https://kwwaleszczynski-del.github.io/pse-opendata/">docs</a><br><sub>103 offline tests on recorded responses plus live checks against PSE's API description; documents pitfalls such as DST labels, the 100,000-row cap and pagination that drops rows.</sub></td>
 </tr>
 </table>
+</details>
 
-**Stack:** Python · pandas · SciPy / HiGHS MILP · pvlib · PyWake · PyTorch · NumPyro / JAX · Plotly · Grafana · InfluxDB 2 / Flux · TimescaleDB / Parquet · GitHub Actions · pytest  
+
+**Stack:** Python · pandas · SciPy / HiGHS MILP · pvlib · PyWake · PyTorch · NumPyro / JAX · Plotly · Grafana · InfluxDB 2 / Flux · GitHub Actions · pytest  
 **Open data:** PSE (Polish TSO) open API · AEMO NEM · NREL PVDAQ · Kelmarsh wind farm SCADA (Cubico, CC BY 4.0) · PVGIS · Open-Meteo / ERA5 · Met Office sunshine records · Zenodo LFP cell ageing data · IMGW-PIB synoptic stations · CERRA (Copernicus) · IEEE RTS-79 · CARE to Compare benchmark (CC BY-SA 4.0) · FlyWire connectome v783 (CC BY 4.0)
