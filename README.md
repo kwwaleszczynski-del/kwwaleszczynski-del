@@ -21,12 +21,12 @@ Six projects to look at first. The first three come with a short case study writ
 - **[A citable forecast benchmark for the Polish grid](https://github.com/kwwaleszczynski-del/pl-forecast-bench)** · [live page](https://kwwaleszczynski-del.github.io/pl-forecast-bench/)  
   Before paying for a forecast, compare it with the free PSE plan under the same as-of rule: intraday models beat the plan by 20-26 %, but day-ahead nothing that respects the 10:00 issue time beats it for volumes.
 
-#### All 42 projects
+#### All 49 projects
 
 Grouped by topic; click a group to open it. Every card links to the repository and, where there is one, to its live page. The same list with filters is on the [interactive portfolio](https://kwwaleszczynski-del.github.io/).
 
 <details>
-<summary><b>Solar PV</b> · 7 projects</summary>
+<summary><b>Solar PV</b> · 9 projects</summary>
 
 <table>
 <tr>
@@ -43,6 +43,10 @@ Grouped by topic; click a group to open it. Every card links to the repository a
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-thermal-check"><img src="https://kwwaleszczynski-del.github.io/img/pv-thermal-check.webp" alt="PV thermal check: modules, inverter, transformer"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-thermal-check">PV thermal check: modules, inverter, transformer</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-thermal-check/">live page</a><br><sub>The back-of-module sensor saw only about half of the real heating: thermal losses are 10.5 % a year, not 6.7 %; temperature-corrected PR cuts the seasonal spread from 13.1 to 4.8 pp.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-string-iv-faults"><img src="https://kwwaleszczynski-del.github.io/img/pv-string-iv-faults.webp" alt="PV string fault diagnosis from inverter MPPT voltage and current"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-string-iv-faults">PV string fault diagnosis from inverter MPPT voltage and current</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-string-iv-faults/">live page</a><br><sub>Held-out macro-F1 is 0.694 with 7 % false alarms on healthy windows: shorted diodes are counted exactly in 97.9 % of detected cases and series resistance is estimated within about 10 %, but 1 % soiling stays hidden in string-to-string mismatch (F1 0.25).</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-canopy-pac-verification"><img src="https://kwwaleszczynski-del.github.io/img/pv-canopy-pac-verification.webp" alt="Off-site canopy vs row-to-row shading in an autumn IEC 61724-1 PV acceptance test"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-canopy-pac-verification">Off-site canopy vs row-to-row shading in an autumn IEC 61724-1 PV acceptance test</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-canopy-pac-verification/">live page</a><br><sub>Row-to-row shading under flat-terrain backtracking, not the forest, drives the shortfall (2.05 pp vs 0.18 pp; estimated 1.78 and 0.22). Excluding canopy-shaded intervals turns a failed PAC into a pass, and the raycaster matches SCADA dropouts at interval F1 0.82 but only R² 0.12.</sub></td>
 <td width="50%"></td>
 </tr>
 </table>
@@ -91,7 +95,7 @@ Grouped by topic; click a group to open it. Every card links to the repository a
 </details>
 
 <details>
-<summary><b>Storage &amp; markets</b> · 11 projects</summary>
+<summary><b>Storage &amp; markets</b> · 14 projects</summary>
 
 <table>
 <tr>
@@ -116,13 +120,17 @@ Grouped by topic; click a group to open it. Every card links to the repository a
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-capacity-augmentation"><img src="https://kwwaleszczynski-del.github.io/img/bess-capacity-augmentation.webp" alt="Battery ageing vs capacity market obligation"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-capacity-augmentation">Battery ageing vs capacity market obligation</a></b> · <a href="https://kwwaleszczynski-del.github.io/bess-capacity-augmentation/">live page</a><br><sub>Built to nominal energy, a battery misses its obligation in year one; +20 % headroom lasts 7-10 years, and full arbitrage leaves 62-68 % SoH after 17 years.</sub></td>
-<td width="50%"></td>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-hems-mpc"><img src="https://kwwaleszczynski-del.github.io/img/pl-hems-mpc.webp" alt="Home and C&amp;I energy management on 15-minute Polish prices"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-hems-mpc">Home and C&amp;I energy management on 15-minute Polish prices</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-hems-mpc/">live page</a><br><sub>Over Oct 2025 - Sep 2026 the noisy-forecast MILP cuts a dynamic-tariff house's annual cost by 37.4 % (2,378 PLN/yr); on the commercial site a causal ratio rule puts 88.5 % of working days in K1, against a perfect-foresight MILP bound of 98.4 %.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-thermal-aux-load"><img src="https://kwwaleszczynski-del.github.io/img/bess-thermal-aux-load.webp" alt="Container thermal balance, HVAC auxiliary load and net RTE of a grid battery"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-thermal-aux-load">Container thermal balance, HVAC auxiliary load and net RTE of a grid battery</a></b> · <a href="https://kwwaleszczynski-del.github.io/bess-thermal-aux-load/">live page</a><br><sub>Net RTE at the PCC is 92.4 % at 1 cycle/day and 89.8 % at 0.35 cycles/day: fixed transformer and control loads, not winter, cost the low-cycling case 2.5 pp, and no heating is needed all year. Reported fleet averages are nearer 82 %, so the model is an optimistic bound.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-cppa-shaping-risk"><img src="https://kwwaleszczynski-del.github.io/img/pl-cppa-shaping-risk.webp" alt="Corporate PPA structuring and shaping risk on Polish power prices"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-cppa-shaping-risk">Corporate PPA structuring and shaping risk on Polish power prices</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-cppa-shaping-risk/">live page</a><br><sub>In 2025 a baseload PPA cost a pure PV seller 153.5 PLN/MWh of shaping cost against 27.0 for pure wind, with no interior optimum: cost and P90 are best at 100 % wind, while 24/7 hourly matching peaks at a mix (76.6 % at 80 % wind, 84.2 % with a 4 h battery).</sub></td>
 </tr>
 </table>
 </details>
 
 <details>
-<summary><b>Power system &amp; resource</b> · 8 projects</summary>
+<summary><b>Power system &amp; resource</b> · 9 projects</summary>
 
 <table>
 <tr>
@@ -141,16 +149,24 @@ Grouped by topic; click a group to open it. Every card links to the repository a
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/era5-check-pl"><img src="https://kwwaleszczynski-del.github.io/img/era5-check-pl.webp" alt="How good is ERA5 in Poland?"></a><br><b><a href="https://github.com/kwwaleszczynski-del/era5-check-pl">How good is ERA5 in Poland?</a></b> · <a href="https://kwwaleszczynski-del.github.io/era5-check-pl/">live page</a><br><sub>ERA5 overstates 10 m wind by 8 % (median), about 15 % in wind energy; the matrix MCP method cuts the energy error from 41 % to 5 %.</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/fly-connectome-forecast"><img src="https://kwwaleszczynski-del.github.io/img/fly-connectome-forecast.webp" alt="Can a fly brain forecast wind and solar?"></a><br><b><a href="https://github.com/kwwaleszczynski-del/fly-connectome-forecast">Can a fly brain forecast wind and solar?</a></b> · <a href="https://kwwaleszczynski-del.github.io/fly-connectome-forecast/">live page</a><br><sub>No: tuned separately, the fly brain matches a random reservoir within 2 %; its compressed eigenvalue spectrum makes it robust to bad settings, not a better forecaster.</sub></td>
 </tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pl-grid-connection-ncrfg"><img src="https://kwwaleszczynski-del.github.io/img/pl-grid-connection-ncrfg.webp" alt="Grid connection studies and non-firm capacity on Polish MV/110 kV feeders"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pl-grid-connection-ncrfg">Grid connection studies and non-firm capacity on Polish MV/110 kV feeders</a></b> · <a href="https://kwwaleszczynski-del.github.io/pl-grid-connection-ncrfg/">live page</a><br><sub>On a 14.2 km overhead feeder cos-phi(P) and Q(U) lift hosting capacity from 2.30 MW to 3.21 and 3.11 MW, but cost capacity on a thermally limited cable feeder; a 70 % export cap curtails 1.78 % of PV energy, and pooling wind behind the same 21.54 MW connection carries 1.96 times the energy of firm PV.</sub></td>
+<td width="50%"></td>
+</tr>
 </table>
 </details>
 
 <details>
-<summary><b>Monitoring</b> · 2 projects</summary>
+<summary><b>Monitoring</b> · 3 projects</summary>
 
 <table>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/res-uplift-verification"><img src="https://kwwaleszczynski-del.github.io/img/res-uplift-verification.webp" alt="Did the upgrade work? Causal O&amp;M verification"></a><br><b><a href="https://github.com/kwwaleszczynski-del/res-uplift-verification">Did the upgrade work? Causal O&amp;M verification</a></b> · <a href="https://kwwaleszczynski-del.github.io/res-uplift-verification/">live page</a><br><sub>A +3 % uplift needs about 9 weeks to prove with five control turbines, +1 % stays unproven after a year; on real events before/after reports -3.2 % to +3.0 % where the turbines came back within ±1 %.</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/grafana-fleet-as-code"><img src="https://kwwaleszczynski-del.github.io/img/grafana-fleet-as-code.webp" alt="Fleet monitoring as code"></a><br><b><a href="https://github.com/kwwaleszczynski-del/grafana-fleet-as-code">Fleet monitoring as code</a></b><br><sub>Alerts fire on real faults, including a PV inverter that stopped producing ten days before it reported an error code.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/scada-lakehouse-streaming"><img src="https://kwwaleszczynski-del.github.io/img/scada-lakehouse-streaming.webp" alt="Streaming SCADA ingestion, event-time watermarks and a Bronze-Silver-Gold lakehouse for wind and PV"></a><br><b><a href="https://github.com/kwwaleszczynski-del/scada-lakehouse-streaming">Streaming SCADA ingestion, event-time watermarks and a Bronze-Silver-Gold lakehouse for wind and PV</a></b> · <a href="https://kwwaleszczynski-del.github.io/scada-lakehouse-streaming/">live page</a><br><sub>Across 18 simulated LTE outages, naive windowing puts a median 9.2x the true energy into the reconnect quarter-hour (185 % nMAE in affected intervals) and loses 6.0 % of fleet energy on the 25-hour DST day; the event-time pipeline recovers the true energy in every affected quarter-hour.</sub></td>
+<td width="50%"></td>
 </tr>
 </table>
 </details>
