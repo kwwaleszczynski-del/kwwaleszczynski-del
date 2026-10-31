@@ -21,33 +21,29 @@ Six projects to look at first. The first three come with a short case study writ
 - **[A citable forecast benchmark for the Polish grid](https://github.com/kwwaleszczynski-del/pl-forecast-bench)** · [live page](https://kwwaleszczynski-del.github.io/pl-forecast-bench/)  
   Before paying for a forecast, compare it with the free PSE plan under the same as-of rule: intraday models beat the plan by 20-26 %, but day-ahead nothing that respects the 10:00 issue time beats it for volumes.
 
-#### All 49 projects
+#### All 48 projects
 
 Grouped by topic; click a group to open it. Every card links to the repository and, where there is one, to its live page. The same list with filters is on the [interactive portfolio](https://kwwaleszczynski-del.github.io/).
 
 <details>
-<summary><b>Solar PV</b> · 9 projects</summary>
+<summary><b>Solar PV</b> · 8 projects</summary>
 
 <table>
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-budget-bridge"><img src="https://kwwaleszczynski-del.github.io/img/pv-budget-bridge.webp" alt="PV budget bridge: monthly P50 to actual waterfall and sensor QC"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-budget-bridge">PV budget bridge: monthly P50 to actual waterfall and sensor QC</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-budget-bridge/">live page</a><br><sub>Recovers injected outages and curtailment within 0.5 % on synthetic truth and flags clock shifts, sensor tilt errors and pyranometer drift across three multi-year NREL PVDAQ rooftops.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-site-to-pvsyst"><img src="https://kwwaleszczynski-del.github.io/img/pv-site-to-pvsyst.webp" alt="From a parcel to a PVsyst 3D scene, and what the MV network costs"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-site-to-pvsyst">From a parcel to a PVsyst 3D scene, and what the MV network costs</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-site-to-pvsyst/">live page</a><br><sub>Ray casting on the exported .dae matches the analytic row-to-row shading within 0.01 % (0.54 vs 0.53 %); on a 19.2 MWp plant five 3150 kVA stations with night disconnect save 0.4 MPLN over 30 years.</sub></td>
-</tr>
-<tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-shade-fingerprint"><img src="https://kwwaleszczynski-del.github.io/img/pv-shade-fingerprint.webp" alt="PV shading from AC power alone"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-shade-fingerprint">PV shading from AC power alone</a></b><br><sub>A building's silhouette recovered with mask IoU 0.93 and 0.8 deg RMSE on simulated systems, then run on two years of a real PVDAQ roof.</sub></td>
+</tr>
+<tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-tracker-shading-3d"><img src="https://kwwaleszczynski-del.github.io/img/pv-tracker-shading-3d.webp" alt="Single-axis trackers in 3D"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-tracker-shading-3d">Single-axis trackers in 3D</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-tracker-shading-3d/">live page</a><br><sub>Backtracking gives +4.3 % DC yield over true tracking on flat ground (1255 vs 1204 kWh/kWp).</sub></td>
-</tr>
-<tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-outage-classifier"><img src="https://kwwaleszczynski-del.github.io/img/pv-outage-classifier.webp" alt="PV outages: detection, cause and availability"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-outage-classifier">PV outages: detection, cause and availability</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-outage-classifier/">live page</a><br><sub>Requiring events of at least 1 h lifts the hybrid detector's precision from 0.73 to 0.97 and cuts alarms about 20-fold; thresholds tuned on simulation give 257 alarms per inverter-year on real roofs, a short site set-up brings it to 6 with all real outages still found.</sub></td>
+</tr>
+<tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-anomaly-autoencoder"><img src="https://kwwaleszczynski-del.github.io/img/pv-anomaly-autoencoder.webp" alt="PV fault detection: autoencoder vs baselines"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-anomaly-autoencoder">PV fault detection: autoencoder vs baselines</a></b><br><sub>F1 0.77 against 0.37-0.48 for the baselines; on real data it caught an inverter outage reported 10 days late by the inverter itself.</sub></td>
-</tr>
-<tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-thermal-check"><img src="https://kwwaleszczynski-del.github.io/img/pv-thermal-check.webp" alt="PV thermal check: modules, inverter, transformer"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-thermal-check">PV thermal check: modules, inverter, transformer</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-thermal-check/">live page</a><br><sub>The back-of-module sensor saw only about half of the real heating: thermal losses are 10.5 % a year, not 6.7 %; temperature-corrected PR cuts the seasonal spread from 13.1 to 4.8 pp.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-string-iv-faults"><img src="https://kwwaleszczynski-del.github.io/img/pv-string-iv-faults.webp" alt="PV string fault diagnosis from inverter MPPT voltage and current"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-string-iv-faults">PV string fault diagnosis from inverter MPPT voltage and current</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-string-iv-faults/">live page</a><br><sub>Held-out macro-F1 is 0.694 with 7 % false alarms on healthy windows: shorted diodes are counted exactly in 97.9 % of detected cases and series resistance is estimated within about 10 %, but 1 % soiling stays hidden in string-to-string mismatch (F1 0.25).</sub></td>
 </tr>
 <tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-string-iv-faults"><img src="https://kwwaleszczynski-del.github.io/img/pv-string-iv-faults.webp" alt="PV string fault diagnosis from inverter MPPT voltage and current"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-string-iv-faults">PV string fault diagnosis from inverter MPPT voltage and current</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-string-iv-faults/">live page</a><br><sub>Held-out macro-F1 is 0.694 with 7 % false alarms on healthy windows: shorted diodes are counted exactly in 97.9 % of detected cases and series resistance is estimated within about 10 %, but 1 % soiling stays hidden in string-to-string mismatch (F1 0.25).</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/pv-canopy-pac-verification"><img src="https://kwwaleszczynski-del.github.io/img/pv-canopy-pac-verification.webp" alt="Off-site canopy vs row-to-row shading in an autumn IEC 61724-1 PV acceptance test"></a><br><b><a href="https://github.com/kwwaleszczynski-del/pv-canopy-pac-verification">Off-site canopy vs row-to-row shading in an autumn IEC 61724-1 PV acceptance test</a></b> · <a href="https://kwwaleszczynski-del.github.io/pv-canopy-pac-verification/">live page</a><br><sub>Row-to-row shading under flat-terrain backtracking, not the forest, drives the shortfall (2.05 pp vs 0.18 pp; estimated 1.78 and 0.22). Excluding canopy-shaded intervals turns a failed PAC into a pass, and the raycaster matches SCADA dropouts at interval F1 0.82 but only R² 0.12.</sub></td>
-<td width="50%"></td>
 </tr>
 </table>
 </details>
