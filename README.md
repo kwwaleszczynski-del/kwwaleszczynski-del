@@ -21,7 +21,7 @@ Six projects to look at first. The first three come with a short case study writ
 - **[A citable forecast benchmark for the Polish grid](https://github.com/kwwaleszczynski-del/pl-forecast-bench)** · [live page](https://kwwaleszczynski-del.github.io/pl-forecast-bench/)  
   Before paying for a forecast, compare it with the free PSE plan under the same as-of rule: intraday models beat the plan by 20-26 %, but day-ahead nothing that respects the 10:00 issue time beats it for volumes.
 
-#### All 48 projects
+#### All 49 projects
 
 Grouped by topic; click a group to open it. Every card links to the repository and, where there is one, to its live page. The same list with filters is on the [interactive portfolio](https://kwwaleszczynski-del.github.io/).
 
@@ -160,7 +160,7 @@ Grouped by topic; click a group to open it. Every card links to the repository a
 </details>
 
 <details>
-<summary><b>Open-source tools</b> · 4 projects</summary>
+<summary><b>Open-source tools</b> · 5 projects</summary>
 
 <table>
 <tr>
@@ -170,6 +170,10 @@ Grouped by topic; click a group to open it. Every card links to the repository a
 <tr>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/scada-schema"><img src="https://kwwaleszczynski-del.github.io/img/scada-schema.webp" alt="scada-schema: an open data standard for wind and PV SCADA"></a><br><b><a href="https://github.com/kwwaleszczynski-del/scada-schema">scada-schema: an open data standard for wind and PV SCADA</a></b> · <a href="https://kwwaleszczynski-del.github.io/scada-schema/">live page</a><br><sub>11 tables from 5 open sources (3.45 million rows, 55 devices) load from the original files and all 11 pass the schema; the loader finds the hectowatt-to-watt switch in NREL PVDAQ system 34 (a factor-98 step on 2018-08-05) from the data alone.</sub></td>
 <td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/bess-reporting-kit"><img src="https://kwwaleszczynski-del.github.io/img/bess-reporting-kit.webp" alt="BESS reporting kit: technical and financial reports and sales-strategy comparison"></a><br><b><a href="https://github.com/kwwaleszczynski-del/bess-reporting-kit">BESS reporting kit: technical and financial reports and sales-strategy comparison</a></b> · <a href="https://kwwaleszczynski-del.github.io/bess-reporting-kit/">live page</a><br><sub>As-of day-ahead arbitrage keeps 82 % of its perfect-foresight ceiling and the revenue stack 91 %; on a 200 MW Australian battery the SoC-corrected round-trip efficiency is 82.9 % against an illustrative 85 % guarantee, met in 2 of 12 months.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/kwwaleszczynski-del/scada-fault-bench"><img src="https://kwwaleszczynski-del.github.io/img/scada-fault-bench.webp" alt="scada-fault-bench: a benchmark for fault detection in wind and PV SCADA"></a><br><b><a href="https://github.com/kwwaleszczynski-del/scada-fault-bench">scada-fault-bench: a benchmark for fault detection in wind and PV SCADA</a></b> · <a href="https://kwwaleszczynski-del.github.io/scada-fault-bench/">live page</a><br><sub>On 2,205 injected faults in 7 open datasets no method wins: the best F1 is 0.40 on wind (EWMA) and 0.53 on PV (Isolation Forest), with several methods inside the same interval; on the 12 real CARE faults recall ranges from 0.08 to 0.75, too few to rank methods.</sub></td>
+<td width="50%"></td>
 </tr>
 </table>
 </details>
